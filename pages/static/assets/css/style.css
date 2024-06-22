@@ -1,0 +1,583 @@
+*
+{
+  background-color: rgb(29, 29, 29);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main
+{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container h4
+{
+  background-color: antiquewhite;
+}
+
+.container p
+{
+  background-color: antiquewhite;
+}
+
+.container b
+{
+  background-color: antiquewhite;
+}
+
+.card2
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container2
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container2 h4
+{
+  background-color: antiquewhite;
+}
+
+.container2 p
+{
+  background-color: antiquewhite;
+}
+
+.container2 b
+{
+  background-color: antiquewhite;
+}
+
+.card3
+{
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container3
+{
+    color: black;
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container3 h4
+{
+  background-color: antiquewhite;
+}
+
+.container3 p
+{
+  background-color: antiquewhite;
+}
+
+.container3 b
+{
+  background-color: antiquewhite;
+}
+
+
+
+
+
+.main2
+{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card4
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.card4 img
+{
+  border-radius: 15px 15px 0 0;
+}
+
+
+.container4
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+    border-radius: 20px;
+}
+
+.container4 h4
+{
+  background-color: antiquewhite;
+}
+
+.container4 p
+{
+  background-color: antiquewhite;
+}
+
+.container4 b
+{
+  background-color: antiquewhite;
+}
+
+.card5
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.card5 img
+{
+  border-radius: 15px 15px 0 0;
+}
+
+
+.container5
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+    border-radius: 20px;
+}
+
+.container5 h4
+{
+  background-color: antiquewhite;
+}
+
+.container5 p
+{
+  background-color: antiquewhite;
+}
+
+.container5 b
+{
+  background-color: antiquewhite;
+}
+
+.card6
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.card6 img
+{
+  border-radius: 15px 15px 0 0;
+}
+
+.container6
+{
+    color: black;
+    background: antiquewhite;
+    padding: 2px 16px;
+    border-radius: 20px;
+}
+
+.container6 h4
+{
+  background-color: antiquewhite;
+}
+
+.container6 p
+{
+  background-color: antiquewhite;
+}
+
+.container6 b
+{
+  background-color: antiquewhite;
+}
+
+.main3
+{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card7
+{
+  color: black;
+  background-color: transparent;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.card7 img
+{
+  border-radius: 200px 200px 0 0;
+}
+
+
+.container7
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container7 h4
+{
+  background-color: antiquewhite;
+}
+
+.container7 p
+{
+  background-color: antiquewhite;
+}
+
+.container7 b
+{
+  background-color: antiquewhite;
+}
+
+.card8
+{
+  color: black;
+  background-color: transparent;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.card8 img
+{
+  border-radius: 200px 200px 0 0;
+}
+
+
+.container8
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container8 h4
+{
+  background-color: antiquewhite;
+}
+
+.container8 p
+{
+  background-color: antiquewhite;
+}
+
+.container8 b
+{
+  background-color: antiquewhite;
+}
+
+.card9
+{
+  color: black;
+  background-color: transparent;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.card9 img
+{
+  border-radius: 200px 200px 0 0;
+}
+
+.container9
+{
+    color: black;
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container9 h4
+{
+  background-color: antiquewhite;
+}
+
+.container9 p
+{
+  background-color: antiquewhite;
+}
+
+.container9 b
+{
+  background-color: antiquewhite;
+}
+
+
+.main4
+{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card10
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container10
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container10 h4
+{
+  background-color: antiquewhite;
+}
+
+.container10 p
+{
+  background-color: antiquewhite;
+}
+
+.container10 b
+{
+  background-color: antiquewhite;
+}
+
+.card11
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container11
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container11 h4
+{
+  background-color: antiquewhite;
+}
+
+.container11 p
+{
+  background-color: antiquewhite;
+}
+
+.container11 b
+{
+  background-color: antiquewhite;
+}
+
+.card12
+{
+  color: black;
+  background-color: antiquewhite;
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container12
+{
+    background: antiquewhite;
+    padding: 2px 16px;
+}
+
+.container12 h4
+{
+  background-color: antiquewhite;
+}
+
+.container12 p
+{
+  background-color: antiquewhite;
+}
+
+.container12 b
+{
+  background-color: antiquewhite;
+}
+
+.main5
+{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card13
+{
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 58, 58);
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container13
+{
+    background: rgb(58, 58, 58);
+    padding: 2px 16px;
+}
+
+.container13 h4
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.container13 p
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.container13 b
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.card14
+{
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 58, 58);
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container14
+{
+    background: rgb(58, 58, 58);
+    padding: 2px 16px;
+}
+
+.container14 h4
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.container14 p
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.container14 b
+{
+  background-color:   rgb(58, 58, 58);
+}
+
+.card15
+{
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 58, 58);
+  width: 22%;
+  border-radius: 1rem;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.container15
+{
+    background: rgb(58, 58, 58);
+    padding: 2px 16px;
+}
+
+.container15 h4
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.container15 p
+{
+  background-color: rgb(58, 58, 58);
+}
+
+.container15 b
+{
+  background-color: rgb(58, 58, 58);
+}

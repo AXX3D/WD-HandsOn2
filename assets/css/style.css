@@ -1,0 +1,204 @@
+*
+{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.main
+{
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.buttons
+{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.buttons #hero1
+{
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #hero1:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+.buttons #hero2
+{
+    overflow: hidden;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #hero2:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+.buttons #hero3
+{
+    overflow: hidden;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #hero3:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+.buttons #hero4
+{
+    overflow: hidden;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #hero4:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+.buttons #hero5
+{
+    overflow: hidden;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #hero5:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+.buttons #static
+{
+    overflow: hidden;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #static:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+.buttons #dynamic
+{
+    overflow: hidden;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    top: 60px;
+    font-family: consolas;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.buttons #dynamic:hover
+{
+    color: #000000;
+    background: #9f38e9;
+    box-shadow: 0 0 10px #430d4b, 0 0 40px #7b337d, 0 0 80px #f5d5e0;
+}
+
+@media (max-width: 500px)
+{
+    .buttons
+    {
+        flex-direction: column;
+    }
+    .buttons #hero1
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .buttons #hero2
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .buttons #hero3
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .buttons #hero4
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .buttons #hero5
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .buttons #static
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .buttons #dynamic
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}

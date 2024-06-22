@@ -1,0 +1,498 @@
+*
+{
+    
+}
+
+.main
+{
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card
+{
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+  }
+
+  .card span {
+    font-weight: bold;
+    color: rgb(255, 176, 29);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.85em;
+    margin: 1em;
+  }
+
+  .card img {
+    width: 4.8em;
+    height: 6   em;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: auto;
+    transition: .4s ease-in-out;
+  }
+
+  .card img:hover
+  {
+    box-shadow: 0 0 10px rgb(255, 143, 52), 0 0 40px rgb(238, 111, 26), 0 0 80px rgb(255, 94, 0);
+  }
+  .card .socialicons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+
+  .card a:hover {
+    color: rgb(255, 176, 29);
+  }
+
+  .card button {
+    text-decoration: none;
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: 40px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+
+  .card button:hover {
+    color: rgb(255, 176, 29)   ;
+    background: #000000;
+    box-shadow: 0 0 10px rgb(255, 143, 52), 0 0 40px rgb(238, 111, 26), 0 0 80px rgb(255, 94, 0);
+  }
+
+  .card2
+  {
+      width: 17em;
+      height: 22.5em;
+      background: #171717;
+      transition: 1s ease-in-out;
+      border-radius: 150px;
+      border-bottom-right-radius: 40px;
+      border-top-left-radius: 40px;
+      text-align: center;
+      vertical-align: top;
+      display: inline-block;
+      padding-top: 20px;
+    }
+  
+    .card2:hover
+    {
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        }
+    
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+
+    .card2 span {
+      font-weight: bold;
+      color: rgb(88, 255, 138);
+      text-align: center;
+      display: block;
+      font-size: 1em;
+    }
+  
+    .card2 .info {
+      font-weight: 400;
+      color: white;
+      display: block;
+      text-align: center;
+      font-size: 0.85em;
+      margin: 1em;
+    }
+  
+    .card2 img {
+      width: 4.8em;
+      height: 6   em;
+      background: rgb(0, 0, 0);
+      border-radius: 15px;
+      margin: auto;
+      transition: .4s ease-in-out;
+    }
+  
+    .card2 img:hover
+    {
+        animation: glow 1s infinite alternate;
+    }
+    .card2 .socialicons {
+      margin-top: 1em;
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+    }
+  
+    .card2 a {
+      color: white;
+      transition: .4s ease-in-out;
+    }
+  
+    .card2 a:hover {
+        
+      color: rgb(161, 255, 138);
+    }
+  
+    .card2 button {
+      text-decoration: none;
+      padding: 0.8em 1.7em;
+      display: block;
+      margin: 40px;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+      background: #ffffff;
+      color: rgb(0, 0, 0);
+      transition: .4s ease-in-out;
+    }
+  
+    .card2 button:hover {
+      animation: glow 1s infinite alternate;
+      color: rgb(161, 255, 138)   ;
+      background: #000000;
+    }
+
+    @keyframes glow {
+        from {
+          box-shadow: 0 0 10px 5px #bbf7bc;
+        }
+        to {
+          box-shadow: 0 0 10px 10px #5cff5f;
+        }
+      }
+
+  .card3
+{
+    padding-top: 20px;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(60px 0%, 200% 30px, 80% calc(100% - 30px), calc(100% - 30px) 100%, 0 80%, 5% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.card3:hover
+{
+    width: 18em;
+    height: 23.5em;
+    background: #000000;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .card3 span {
+    font-weight: bold;
+    color: rgb(187, 43, 43);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+
+  .card3 .info3 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.85em;
+    margin: 1em;
+  }
+
+  .card3 img {
+    width: 4.8em;
+    height: 6em;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: auto;
+    transition: .4s ease-in-out;
+  }
+
+  .card3 img:hover
+  {
+    width: 5.6em;
+    height: 7em;
+  }
+  .card3 .socialicons3 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .card3 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+
+  .card3 a:hover {
+    color: rgb(255, 1, 1);
+  }
+
+  .card3 button {
+    text-decoration: none;
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: 40px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+
+  .card3 button:hover {
+    background: transparent;
+    color: red;
+  }
+
+  .card4
+{
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+  }
+
+  .card4:hover
+  {
+    animation: bounce 5s infinite alternate;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+  .card4 span {
+    font-weight: bold;
+    color: rgb(77, 123, 248);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+
+  .card4 .info4 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.85em;
+    margin: 1em;
+  }
+
+  .card4 img {
+    width: 4.8em;
+    height: 6   em;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: auto;
+    transition: .4s ease-in-out;
+  }
+
+  .card4 img:hover
+  {
+    opacity: 1;
+    animation: fade 2s infinite alternate;
+    box-shadow: 0 0 10px rgb(149, 177, 255), 0 0 40px rgb(77, 123, 248), 0 0 80px rgb(14, 76, 247);
+  }
+
+  @keyframes fade {
+    0%,100% { opacity: 0.2 }
+    100% { opacity: 1 }
+  }
+
+  .card4 .socialicons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .card4 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+
+  .card4 a:hover {
+    opacity: 1;
+    animation: fade 2s infinite alternate;
+    color: rgb(14, 76, 247);
+  }
+
+  .card4 button {
+    text-decoration: none;
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: 40px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+
+  .card4 button:hover {
+    color: rgb(14, 76, 247);
+    background: transparent;
+    box-shadow: 0 0 10px rgb(149, 177, 255), 0 0 40px rgb(77, 123, 248), 0 0 80px rgb(14, 76, 247);
+  }
+
+  .card5
+{
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+    transition: 0.4s ease-in-out;
+  }
+
+  .card5:hover
+  {
+    background-color: #000000;
+    animation: fade 2s;
+    background-image: url('/assets/img/death.png');
+    background-size: 21em;
+  }
+
+  .card5 span {
+    font-weight: bold;
+    color: rgb(255, 29, 29);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+
+  .card5 .info5 {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.85em;
+    margin: 1em;
+  }
+
+  .card5 img {
+    width: 4.8em;
+    height: 6   em;
+    background: transparent;
+    border-radius: 15px;
+    margin: auto;
+    transition: .4s ease-in-out;
+  }
+
+  .card5 img:hover
+  {
+    opacity: 0;
+  }
+  .card5 .socialicons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .card5 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+
+  .card5 a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+  .card5 button {
+    text-decoration: none;
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: 40px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;
+  }
+
+  .card5 button:hover {
+    color: rgb(255, 255, 255)   ;
+    background: #000000;
+    box-shadow: 0 0 10px rgb(65, 11, 11), 0 0 40px rgb(153, 12, 12), 0 0 80px rgb(243, 3, 3);
+  }
